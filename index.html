@@ -12,8 +12,14 @@
 
 <body>
     <h1 class="text-primary fs-1 text-center my-3 fw-bold">Welcome to meal site</h1>
+    <section>
+        <h2 class="text-primary fs-3 text-center my-3 fw-bold ">Meal Details</h2>
+        <div id="detail-container" style="width: 25rem;" class="mx-auto">
+
+        </div>
+    </section>
     <section class="d-flex justify-content-center align-items-center flex-column my-5 ">
-        <input type="text" class="p-3 w-25 rounded rounded-4" id="mealField">
+        <input type="text" class="p-3 w-25 rounded rounded-4 text-center" id="mealField" placeholder="Search your food">
         <button class="py-3 px-5 btn btn-info rounded rounded-4 fw-bold text-light my-2"
             onclick="searchDisplay()">Search</button>
     </section>
@@ -22,6 +28,7 @@
 
         </div>
     </section>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
